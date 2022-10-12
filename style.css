@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.nav-item{
+    padding-right: 30px;
+    font-size: medium;
+    text-transform: uppercase;
+}
+.nav-link{
+    color: black;
+    font-weight: 600;
+}
+.nav-link:hover{
+    color: red;
+}
+.download{
+    height: 45px;
+    width: 150px;
+    outline: none;
+    border: none;
+    background: red;
+    color: white;
+    border-radius: 60px;
+    font-weight: bold;
+    font-size: large;
+}.download:hover{
+    background: rgb(185, 48, 24);
+    transition: 0.5s;
+}
+/* --------------------------------------------------------------------------nan ---------------------------------------------------------------------------------------------------------*/
+.heading{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(43,43,112);
+}
+.p-head{
+    font-size: larger;
+    color:rgb(75,61,61);
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 60px;
+    margin: auto;
+}
+.btn1:hover{
+    background: tomato;
+    transition: 0.5s;
+}.btn2{
+    height: 45px;
+    width: 35%;
+    border: 2px solid rgb(54,149,204);
+    outline: none;
+    color: rgb(54,149,204);
+    border-radius: 60px;
+    font-weight: bold;
+    margin: auto;
+    background: transparent;
+}.btn2:hover{
+    color: rgb(4,4,70);
+    transition: 0.5s;
+    border: 2px solid black;
+}
+/*------------------------------------ section1------------------------------------------------------------------------------------------------------------------ */
+.span{
+    font-size: larger;
+    font-weight: 500;
+    color: grey;
+}
+.para{
+    font-size: 1.1rem;
+    color: rgb(75,61,61);
+}
+.course{
+    background-color: rgb(225,240,246);
+}
+.img1{
+    height: 500px;
+    width:150px;
+
+}
+/* -----------------------------------------------------------------------------------------------section2----------------------------------------------------------------------------------------------------------------------------------------- */
+.pricing .card1{
+    background: rgb(209,236,234);
+    box-shadow: -1px 0px 19px -6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 0px 19px -6px rgba(0,0,0,0.75)
+}
+.pricing.card:hover{
+    background: rgb(209,236,234);
+    box-shadow: -1px 0px 19px -6px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+/* --------------------------------------------------------------------------------section4---------------------------------------------------------------------------------------------------------------------------- */
+footer{
+    background: rgb(225, 240, 246);
+}
